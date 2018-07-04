@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_tab_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_tab"
+        android:orientation="vertical" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/select_tab_one"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textSize="11dp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_hospital"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_tab_two"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textSize="11dp" />
+
+        <RadioButton
+            android:id="@+id/rb_hot"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_tab_three"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textSize="11dp" />
+
+        <RadioButton
+            android:id="@+id/rb_report"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_tab_four"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textSize="11dp" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_tab_five"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textSize="11dp" />
+    </RadioGroup>
+</RelativeLayout>
+

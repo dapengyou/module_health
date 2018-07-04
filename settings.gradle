@@ -1,0 +1,8 @@
+include ':app'
+include ':module_hot'
+include ':module_report'
+include ':baselibrary'
+include ':module_hospital'
+include ':module_mine'
+include ':module_home'
+

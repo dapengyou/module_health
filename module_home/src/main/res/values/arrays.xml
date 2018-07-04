@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <item>http://img.zcool.cn/community/01b72057a7e0790000018c1bf4fce0.png</item>
+        <item>http://img.zcool.cn/community/01fca557a7f5f90000012e7e9feea8.jpg</item>
+        <item>http://img.zcool.cn/community/01996b57a7f6020000018c1bedef97.jpg</item>
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+
+    <string-array name="city">
+        <item>北京市</item>
+        <item>毕节市</item>
+        <item>常州市</item>
+        <item>成都市</item>
+        <item>长春市</item>
+        <item>重庆市</item>
+        <item>长沙市</item>
+        <item>福州市</item>
+        <item>佛山市</item>
+        <item>广州市</item>
+        <item>贵阳市</item>
+        <item>杭州市</item>
+        <item>江阴市</item>
+        <item>济南市</item>
+        <item>凯里市</item>
+        <item>六盘水市</item>
+        <item>绵阳市</item>
+        <item>南京市</item>
+        <item>宁波市</item>
+        <item>青岛市</item>
+        <item>上海市</item>
+        <item>深圳市</item>
+        <item>苏州市</item>
+        <item>沈阳市</item>
+        <item>天津市</item>
+        <item>潍坊市</item>
+        <item>威海市</item>
+        <item>芜湖市</item>
+        <item>武汉市</item>
+        <item>无锡市</item>
+        <item>西安市</item>
+        <item>烟台市</item>
+        <item>银川市</item>
+        <item>镇江市</item>
+        <item>乌鲁木齐市</item>
+        <item>伊宁市</item>
+        <item>兰州市</item>
+        <item>大连市</item>
+    </string-array>
+
+    <string-array name="contacts">
+        <item>毛泽东</item>
+        <item>周恩来</item>
+        <item>孙中山</item>
+        <item>刘少奇</item>
+        <item>邓小平</item>
+        <item>宋庆龄</item>
+        <item>邓稼先</item>
+        <item>陈景润</item>
+        <item>黄子卿</item>
+        <item>李四光</item>
+        <item>马大猷</item>
+        <item>茅以升</item>
+        <item>钱学森</item>
+        <item>卢永根</item>
+        <item>华罗庚</item>
+        <item>郭沫若</item>
+        <item>鲁迅</item>
+        <item>李大钊</item>
+        <item>彭德怀</item>
+        <item>朱德</item>
+        <item>恽代英</item>
+        <item>瞿秋白</item>
+        <item>江泽民</item>
+        <item>张太雷</item>
+        <item>秋瑾</item>
+        <item>袁隆平</item>
+        <item>李小龙</item>
+        <item>成龙</item>
+        <item>李连杰</item>
+        <item>刘德华</item>
+        <item>周杰伦</item>
+        <item>张学友</item>
+        <item>姚明</item>
+        <item>刘翔</item>
+        <item>李嘉诚</item>
+        <item>何鸿燊</item>
+        <item>于丹</item>
+        <item>李政道</item>
+        <item>杨振宁</item>
+    </string-array>
+</resources>
