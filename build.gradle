@@ -2,7 +2,7 @@
 //引入common文件
 apply from: this.file('common.gradle')
 buildscript {
-
+    //配置工程仓库地址
     repositories {
         google()
         jcenter()

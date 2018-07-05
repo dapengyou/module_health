@@ -42,31 +42,4 @@ public class RouteUtils {
         return fragment;
     }
 
-    public static String getHomeTagFragment() {
-        Fragment fragment = (Fragment) ARouter.getInstance().build(Home_Fragment_Main).navigation();
-
-        String tag = fragment.getClass().getSimpleName();
-
-        return tag;
-    }
-
-    public static String getHospitalTagFragment() {
-        String tag = ARouter.getInstance().build(Hospital_Fragment_Main).toString();
-        return tag;
-    }
-
-    public static String getMineTagFragment() {
-        String tag = ARouter.getInstance().build(Mine_Fragment_Main).toString();
-        return tag;
-    }
-//    /**
-//     * 跳转到商品详情的页面
-//     * @param goodName
-//     */
-//    public static void startGoodDetailActivity(String goodName) {
-//        ARouter.getInstance().build(GoodDetail_Activity_Main).withString("goodName",goodName).navigation();
-//    }
-//    public static void startLoginActivity() {
-//        ARouter.getInstance().build(User_Activity_Login).navigation();
-//    }
 }
