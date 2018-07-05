@@ -9,18 +9,6 @@ import com.test.baselibrary.base.BaseFragment;
 
 @Route(path = RouteUtils.Home_Fragment_Main)
 public class HomeFragment extends BaseFragment {
-    public static final String TAG = HomeFragment.class.getSimpleName();//得到类名
-
-    /**
-     * 使用单例
-     *
-     * @return
-     */
-    public static HomeFragment newInstance() {
-        HomeFragment fragment = new HomeFragment();
-        return fragment;
-    }
-
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_home;
